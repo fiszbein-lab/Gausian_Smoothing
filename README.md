@@ -19,7 +19,7 @@ The script expects a BedGraph file with the following columns:
 
 ### Command-Line Arguments
 ```bash
-python gaussian_smoothing_for_bg_specific_chrom.py <input_file> <window_size> <std_dev> <output_file> <chrom>
+python gaussian_smoothing_from_bedgraph.py <input_file> <window_size> <std_dev> <output_file> <chrom>
 ```
 
 ### Parameters
@@ -36,4 +36,4 @@ python gaussian_smoothing_for_bg_specific_chrom.py <input_file> <window_size> <s
 
 ### Citation
 If you use this script in your research, please cite:
-Kim et al., ??, 2025.
+Kim et al., Mol Cell, 2025.
